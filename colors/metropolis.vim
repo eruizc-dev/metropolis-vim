@@ -21,4 +21,5 @@ hi MetropolisYellow guifg=#F4BC47
 " Background colors definition
 hi MetropolisBlackBg guibg=#121212
 
+runtime ./colors/metropolis/lsp.vim
 runtime ./colors/metropolis/vim.vim
