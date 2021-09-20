@@ -39,8 +39,8 @@ hi! link TSOperator MetropolisRed
 
 " Keywords,types and other
 hi! link TSKeyword MetropolisBlue
-hi! link TSType MetropolisBlue
-hi! link TSTypeBuiltin MetropolisBlue
+hi! link TSType MetropolisYellow
+hi! link TSTypeBuiltin MetropolisYellow
 hi! link TSNamespace MetropolisBlue
 hi! link TSInclude MetropolisBlue
 hi! link TSException MetropolisRed
