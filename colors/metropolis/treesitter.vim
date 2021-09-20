@@ -14,7 +14,7 @@ hi! link TSNumber MetropolisYellow
 
 " Variables
 hi! link TSVariable MetropolisWhite
-hi! link TSVariableBuiltin MetropolisWhite
+hi! link TSVariableBuiltin MetropolisRed
 hi! link TSProperty MetropolisWhite
 hi! link TSField MetropolisWhite
 hi! link TSParameter MetropolisWhite
