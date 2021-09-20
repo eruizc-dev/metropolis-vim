@@ -1,7 +1,7 @@
-if exists('g:file_loaded')
+if exists('g:metropolis_treesitter_loaded')
     finish
 endif
-let g:file_loaded = v:true
+let g:metropolis_treesitter_loaded = v:true
 
 " Literals
 hi! link TSConstant MetropolisYellow
