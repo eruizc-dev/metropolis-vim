@@ -25,3 +25,4 @@ runtime ./colors/metropolis/treesitter.vim
 runtime ./colors/metropolis/lsp.vim
 runtime ./colors/metropolis/vim.vim
 runtime ./colors/metropolis/telescope.vim
+runtime ./colors/metropolis/java.vim
