@@ -46,3 +46,7 @@ hi! link Pmenu MetropolisTransparent
 "hi VertSplit        ctermfg=239     ctermbg=239     cterm=NONE      guifg=#4E4E4E       guibg=#4E4E4E   gui=NONE
 "hi Visual           ctermfg=NONE    ctermbg=236     cterm=NONE      guifg=NONE          guibg=#303030   gui=NONE
 "hi WildMenu         ctermfg=234     ctermbg=215     cterm=NONE      guifg=#1C1C1C       guibg=#FFAF5F   gui=NONE
+
+hi! link Comment MetropolisGrey
+hi! link Constant MetropolisYellow
+hi! link Identifier MetropolisWhite
