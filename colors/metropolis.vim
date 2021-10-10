@@ -21,6 +21,17 @@ hi MetropolisYellow guifg=#F4BC47
 " Background colors definition
 hi MetropolisBlackBg guibg=#121212
 
+" Underlined colors definition
+hi MetropolisRedUnderlined guifg=#D34728 gui=underline
+hi MetropolisBlueUnderlined guifg=#55C3B7 gui=underline
+hi MetropolisYellowUnderlined guifg=#F4BC47 gui=underline
+
+" Bold colors definition
+hi MetropolisWhiteBold guifg=#EFF6FA gui=bold
+ 
+" Italic colors definition
+hi MetropolisWhiteItalic guifg=#EFF6FA gui=italic
+
 
 """ COLORSCHEME """
 
@@ -62,18 +73,26 @@ hi! link Pmenu MetropolisTransparent
 "hi SignColumn       ctermfg=NONE    ctermbg=237     cterm=NONE      guifg=NONE          guibg=#3A3A3A   gui=NONE
 "hi StatusLine       ctermfg=255     ctermbg=239     cterm=bold      guifg=#EEEEEE       guibg=#4E4E4E   gui=bold
 "hi StatusLineNC     ctermfg=255     ctermbg=239     cterm=NONE      guifg=#EEEEEE       guibg=#4E4E4E   gui=NONE
-"hi Title            ctermfg=255     ctermbg=NONE    cterm=NONE      guifg=#EEEEEE       guibg=NONE      gui=NONE
-"hi Underlined       ctermfg=NONE    ctermbg=NONE    cterm=NONE      guifg=NONE          guibg=NONE      gui=NONE
 "hi VertSplit        ctermfg=239     ctermbg=239     cterm=NONE      guifg=#4E4E4E       guibg=#4E4E4E   gui=NONE
 "hi Visual           ctermfg=NONE    ctermbg=236     cterm=NONE      guifg=NONE          guibg=#303030   gui=NONE
 "hi WildMenu         ctermfg=234     ctermbg=215     cterm=NONE      guifg=#1C1C1C       guibg=#FFAF5F   gui=NONE
+
+" Text
+hi! link Title MetropolisYellow
+hi! link Underlined MetropolisBlueUnderlined
+hi! link Special MetropolisRed
+hi! link Statement MetropolisRed
 
 " Language
 hi! link Comment MetropolisGrey
 hi! link Constant MetropolisYellow
 hi! link Identifier MetropolisWhite
 
-runtime ./colors/metropolis/treesitter.vim
+" Load languages
+runtime ./colors/metropolis/java.vim
+runtime ./colors/metropolis/markdown.vim
+
+" Load plugins
 runtime ./colors/metropolis/lsp.vim
 runtime ./colors/metropolis/telescope.vim
-runtime ./colors/metropolis/java.vim
+runtime ./colors/metropolis/treesitter.vim
