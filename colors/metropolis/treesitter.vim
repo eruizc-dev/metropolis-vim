@@ -49,5 +49,9 @@ hi! link TSException MetropolisRed
 hi! link TSConditional MetropolisRed
 hi! link TSRepeat MetropolisRed
 
+" Errors
+hi! link TSError MetropolisRed
+hi! link TSWarning MetropolisYellow
+
 " Other
 hi! link TSKeywordFunction MetropolisBlue
