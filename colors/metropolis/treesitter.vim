@@ -21,9 +21,6 @@ hi! link TSParameter MetropolisWhite
 hi! link TSAttribute MetropolisRed
 hi! link TSLabel MetropolisWhite
 
-" Comments
-hi! link TSComment MetropolisGrey
-
 " Functions
 hi! link TSFunction MetropolisBlue
 hi! link TSFuncBuiltin MetropolisBlue
