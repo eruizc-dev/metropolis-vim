@@ -22,6 +22,7 @@ hi MetropolisYellow guifg=#F4BC47
 hi MetropolisBlackBg guibg=#121212
 
 " Underlined colors definition
+hi MetropolisUnderlined gui=underline
 hi MetropolisRedUnderlined guifg=#D34728 gui=underline
 hi MetropolisBlueUnderlined guifg=#55C3B7 gui=underline
 hi MetropolisYellowUnderlined guifg=#F4BC47 gui=underline
@@ -31,7 +32,6 @@ hi MetropolisWhiteBold guifg=#EFF6FA gui=bold
  
 " Italic colors definition
 hi MetropolisWhiteItalic guifg=#EFF6FA gui=italic
-
 
 """ COLORSCHEME """
 
@@ -69,7 +69,6 @@ hi! link Pmenu MetropolisTransparent
 "hi IncSearch        ctermfg=234     ctermbg=75      cterm=NONE      guifg=#1C1C1C       guibg=#5FAFFF   gui=NONE
 "hi MatchParen       ctermfg=NONE    ctermbg=NONE    cterm=underline guifg=NONE          guibg=NONE      gui=underline
 "hi Question         ctermfg=150     ctermbg=NONE    cterm=NONE      guifg=#AFD787       guibg=NONE      gui=bold
-"hi Search           ctermfg=NONE    ctermbg=NONE    cterm=underline guifg=NONE          guibg=NONE      gui=underline
 "hi SignColumn       ctermfg=NONE    ctermbg=237     cterm=NONE      guifg=NONE          guibg=#3A3A3A   gui=NONE
 "hi StatusLine       ctermfg=255     ctermbg=239     cterm=bold      guifg=#EEEEEE       guibg=#4E4E4E   gui=bold
 "hi StatusLineNC     ctermfg=255     ctermbg=239     cterm=NONE      guifg=#EEEEEE       guibg=#4E4E4E   gui=NONE
@@ -82,6 +81,9 @@ hi! link Title MetropolisYellow
 hi! link Underlined MetropolisBlueUnderlined
 hi! link Special MetropolisRed
 hi! link Statement MetropolisRed
+
+" Search
+hi! link Search MetropolisUnderlined
 
 " Language
 hi! link Comment MetropolisGrey
