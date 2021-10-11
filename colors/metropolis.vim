@@ -98,6 +98,7 @@ runtime ./colors/metropolis/markdown.vim
 
 " Load plugins
 runtime ./colors/metropolis/cmp.vim
+runtime ./colors/metropolis/dosini.vim
 runtime ./colors/metropolis/lsp.vim
 runtime ./colors/metropolis/telescope.vim
 runtime ./colors/metropolis/treesitter.vim
