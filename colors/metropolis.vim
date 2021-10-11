@@ -13,7 +13,6 @@ hi MetropolisTransparent guifg=NONE guibg=NONE
 hi MetropolisBlack guifg=#0E1F2C
 hi MetropolisGrey guifg=#585858
 hi MetropolisWhite guifg=#EFF6FA
-
 hi MetropolisRed guifg=#D34728
 hi MetropolisBlue guifg=#55C3B7
 hi MetropolisYellow guifg=#F4BC47
@@ -22,7 +21,6 @@ hi MetropolisYellow guifg=#F4BC47
 hi MetropolisBlackBg guibg=#121212
 
 " Underlined colors definition
-hi MetropolisUnderlined gui=underline
 hi MetropolisRedUnderlined guifg=#D34728 gui=underline
 hi MetropolisBlueUnderlined guifg=#55C3B7 gui=underline
 hi MetropolisYellowUnderlined guifg=#F4BC47 gui=underline
@@ -32,6 +30,10 @@ hi MetropolisWhiteBold guifg=#EFF6FA gui=bold
  
 " Italic colors definition
 hi MetropolisWhiteItalic guifg=#EFF6FA gui=italic
+
+" Modificators
+hi MetropolisUnderlined gui=underline
+hi MetropolisBold gui=bold
 
 """ COLORSCHEME """
 
@@ -95,6 +97,7 @@ runtime ./colors/metropolis/java.vim
 runtime ./colors/metropolis/markdown.vim
 
 " Load plugins
+runtime ./colors/metropolis/cmp.vim
 runtime ./colors/metropolis/lsp.vim
 runtime ./colors/metropolis/telescope.vim
 runtime ./colors/metropolis/treesitter.vim
