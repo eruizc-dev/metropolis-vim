@@ -87,7 +87,9 @@ hi! link Statement MetropolisRed
 " Search
 hi! link Search MetropolisUnderlined
 
-" Language
+" Code
+hi! link Type MetropolisYellow
+hi! link TypeBuiltin MetropolisYellow
 hi! link Comment MetropolisGrey
 hi! link Constant MetropolisYellow
 hi! link Identifier MetropolisWhite
