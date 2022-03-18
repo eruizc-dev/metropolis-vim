@@ -94,6 +94,9 @@ hi! link Comment MetropolisGrey
 hi! link Constant MetropolisYellow
 hi! link Identifier MetropolisWhite
 
+" Splits
+hi! link WinSeparator MetropolisTransparent
+
 " Load languages
 runtime ./colors/metropolis/java.vim
 runtime ./colors/metropolis/markdown.vim
