@@ -1,8 +1,3 @@
-if exists('g:metropolis_treesitter_loaded')
-    finish
-endif
-let g:metropolis_treesitter_loaded = v:true
-
 " Literals
 hi! link TSConstant MetropolisYellow
 hi! link TSConstBuiltin MetropolisYellow

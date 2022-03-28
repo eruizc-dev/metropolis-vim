@@ -1,9 +1,15 @@
-if exists('g:metropolis_loaded') || (!&termguicolors && !has('gui_running') && &t_Co != 256)
-  finish
+if version > 580
+  hi clear
+  if exists("syntax_on")
+    syntax reset
+  endif
 endif
 
-let g:metropolis_loaded = v:true
 let g:colors_name='metropolis'
+
+if !(has('termguicolors') && &termguicolors) && !has('gui_running') && &t_Co != 256
+  finish
+endif
 
 set background=dark
 

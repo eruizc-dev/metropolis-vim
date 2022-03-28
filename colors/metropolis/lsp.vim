@@ -1,8 +1,3 @@
-if exists('g:metropolis_lsp_loaded')
-    finish
-endif
-let g:metropolis_lsp_loaded = v:true
-
 hi! link LspDiagnosticsSignError MetropolisRed
 hi! link LspDiagnosticsDefaultError MetropolisRed
 sign define LspDiagnosticsSignError text= texthl=LspDiagnosticsSignError

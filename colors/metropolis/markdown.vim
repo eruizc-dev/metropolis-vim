@@ -1,8 +1,3 @@
-if exists('g:metropolis_markdown_loaded') || &compatible
-    finish
-endif
-let g:metropolis_markdown_loaded = v:true
-
 " Text
 hi! link markdownBold MetropolisWhiteBold
 hi! link markdownItalic MetropolisWhiteItalic
