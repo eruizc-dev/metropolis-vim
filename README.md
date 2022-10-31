@@ -1,4 +1,6 @@
-# Metropolis
+# Metropolis - UNMAINTAINED
+
+I no longer use this colorscheme so I will no longer support it. Feel free to fork and let me know so I add your fork in this README
 
 Minimalist colorscheme inspired by [GMK Metropolis Keycaps](https://duckduckgo.com/?t=ffab&q=gmk+metropolis&iax=images&ia=images)
 
